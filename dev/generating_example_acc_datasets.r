@@ -12,9 +12,9 @@ library(httr2)
 library(stringr)
 library(bench)
 
-usr <- "scavengersonpatrol"
-psw <- "Scavengers"
-
+# movebank credentials stored in HOME .Renviron file
+usr <- Sys.getenv("vult_usr")
+pwd <- Sys.getenv("vult_pwd")
 
 options(pillar.width = Inf)
 
