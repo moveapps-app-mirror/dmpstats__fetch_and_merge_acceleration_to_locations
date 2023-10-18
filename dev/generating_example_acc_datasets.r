@@ -21,7 +21,7 @@ options(pillar.width = Inf)
 # set up Movebank credentials to local environment
 move2::movebank_store_credentials(
   username = usr, 
-  password = psw
+  password = pwd
 )
 
 keyring::key_list()
